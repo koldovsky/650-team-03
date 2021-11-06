@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*  
+font-family: 'Open Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;   
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*by Mykola Kuchmenko*/
+
+.store-text h2, 
+.name-of-goods, 
+.item-price, 
+.how-to-order-text h2,
+.step-name {
+    font-family: 'Signika Negative', sans-serif
+}
+
+.how-to-order h3,
+.store h3 {
+    color : #eb6d2f;
+    font-size : 14px;
+    text-align :center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
