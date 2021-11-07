@@ -64,7 +64,7 @@ font-family: 'Signika Negative', sans-serif;
     text-decoration: none;
 }
 
-.strip-orange{
+.strip-orange-store {
     width: 50px;
     border-bottom: 4px #eb6d2f solid;
     margin: 25px 0 20px 0;
@@ -105,11 +105,11 @@ font-family: 'Signika Negative', sans-serif;
 }
 
 
-.item-button {
+.store-item-button {
     background-color: rgb(235, 109, 47);
     border-radius: 8px;
     border-width: 2px;
-   margin: 30px 0 0 0;
+   margin: auto;
     width: 120px;
     height: 45px;
     letter-spacing: 0.03em;
@@ -118,8 +118,9 @@ font-family: 'Signika Negative', sans-serif;
     font-size: 16px;
     color: white;
     font-family: "Open Sans", sans-serif;
+    
 }
-.item-button {
+.store-item-button {
     background-color: orange;
 }
 
@@ -156,6 +157,7 @@ font-family: 'Signika Negative', sans-serif;
     border-radius: 8px;
     margin: auto;
     text-align: center;
+    
 }
 
 .steps-button{
@@ -166,7 +168,7 @@ font-family: 'Signika Negative', sans-serif;
 .step-button p {
     color: rgb(255, 255, 255);
     font-weight: 600;
-    
+    padding-top: 15px;
     
 }
 
