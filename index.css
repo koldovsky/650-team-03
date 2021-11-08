@@ -82,6 +82,19 @@ h4 {
 	color: white;
 	font-family: "Open Sans", sans-serif;
 }
+.text-yellow {
+	text-align: center;
+	color: #ffd832;
+	font-size: 13.5px;
+	line-height: 1.33em;
+	letter-spacing: 0.03em;
+	margin: 30px 0 0 0;
+	font-weight: bold;
+}
+.text-yellow:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
 
 /*  
 font-family: 'Open Sans', sans-serif;
@@ -165,6 +178,59 @@ margin: 30px 0 0 0;
 
 .button-orange:hover {
 background-color: orange;
+}
+/* Section-2 */
+.section-2 {
+	background-image: url("img/background-block-2.webp");
+	background-size: cover;
+	position: relative;
+	width: auto;
+	height: 750px;
+	margin: 0 auto;
+}
+.text-section-2 {
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
+#strip-orange-section-2 {
+	margin: 0 auto;
+}
+
+.small-text {
+	color: rgb(65, 57, 57);
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+}
+.block-colums-section-2 {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	max-height: 349px;
+	margin-top: 40px;
+}
+
+.content-section-2 {
+	max-width: 1200px;
+	max-height: 655px;
+	margin: 0 auto;
+}
+
+.colums-section-2 {
+	text-align: center;
+	background-color: #ffffff;
+	width: 360px;
+	height: 349px;
+	padding: 50px;
+}
+
+img.colums-img {
+	width: 91px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
