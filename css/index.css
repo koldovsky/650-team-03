@@ -38,7 +38,6 @@ h2 {
 }
 
 h3 {
-	font-family: "Open Sans", sans-serif;
 	color: var(--main-color);
 	font-weight: bold;
 	letter-spacing: 0.1em;
@@ -53,7 +52,6 @@ h4 {
 }
 .text-colums {
 	color: #413939;
-	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 }
@@ -61,7 +59,6 @@ h4 {
 .small-text {
 	color: rgb(65, 57, 57);
 	font-size: 16px;
-	font-family: "Open Sans", sans-serif;
 	line-height: 1.6;
 	margin: 15px 0 15px 0;
 }
@@ -80,7 +77,7 @@ h4 {
 	cursor: pointer;
 	font-size: 16px;
 	color: white;
-	font-family: "Open Sans", sans-serif;
+	
 }
 .text-yellow {
 	text-align: center;
@@ -119,7 +116,6 @@ font-family: 'Signika Negative', sans-serif;
 }
 
 .menu-header {
-	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	width: auto;
 	height: 57px;
@@ -200,7 +196,7 @@ background-color: orange;
 .small-text {
 	color: rgb(65, 57, 57);
 	font-size: 18px;
-	font-family: "Open Sans", sans-serif;
+	
 }
 .block-colums-section-2 {
 	text-align: center;
