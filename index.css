@@ -5,12 +5,15 @@
     --main-color: #eb6d2f;
 	--h1-h2-h4-color: #5a3733;
 	background-color: #f9f4f0;
-	width: auto;
-}
+	}
 
 * {
     margin : 0;
     padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+	padding: 0;
+    border: 0;
 }
 
 /*  
