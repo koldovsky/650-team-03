@@ -60,7 +60,7 @@ h4 {
 
 .small-text {
 	color: rgb(65, 57, 57);
-	font-size: 16px !important;
+	font-size: 16px;
 	font-family: "Open Sans", sans-serif;
 	line-height: 1.6;
 	margin: 15px 0 15px 0;
@@ -136,7 +136,7 @@ font-family: 'Signika Negative', sans-serif;
 	color: var(--h1-h2-h4-color);
 	margin: 17px 0 0 5px;
 
-	font-weight: 600 !important;
+	font-weight: 600;
 }
 
 #button_border {
