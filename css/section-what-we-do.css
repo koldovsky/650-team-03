@@ -1,0 +1,55 @@
+.section-what-we-do {
+    background-image: url(../img/background-block-2.webp);
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.text-section-what-we-do {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#strip-orange-section-what-we-do {
+    margin: 0 auto;
+}
+
+.small-text {
+    color: rgb(65, 57, 57);
+    font-size: 18px;
+
+}
+
+.block-colums-section-what-we-do {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    max-height: 349px;
+    margin-top: 40px;
+}
+
+.content-section-what-we-do {
+    max-width: 1200px;
+    max-height: 655px;
+    margin: 0 auto;
+}
+
+.colums-section-what-we-do {
+    text-align: center;
+    background-color: #ffffff;
+    width: 360px;
+    height: 349px;
+    padding: 50px;
+}
+
+img.colums-img-section-what-we-do {
+    width: 91px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
