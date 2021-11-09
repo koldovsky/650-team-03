@@ -1,0 +1,37 @@
+.section-clients-feedback {
+    background-color: #5a3733;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+}
+.subtitle {
+    font-family: Open Sans, sans-serif;
+    color: #f7bd00;
+    text-style: bold;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    height: 50px;
+    ;
+}
+h6 {
+    font-size: 50px;
+    color: white;
+
+}
+.small-text- {
+    color: white;
+}
+.color-white {
+    color: whitesmoke;
+    font-style: italic;
+
+}
+.date {
+    color: whitesmoke;
+
+}
+.strip-yellow {
+    width: 50px;
+    border-bottom: 4px #f7bd00 solid;
+    margin: auto;
+    ;
+}
