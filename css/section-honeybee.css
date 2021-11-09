@@ -21,4 +21,5 @@
 
 .button-orange:hover {
     background-color: orange;
+    transition: all 0.5s;
 }

@@ -45,6 +45,7 @@
 #menu-header-elements-button-border:hover {
     color: white;
     background-color: var(--main-color);
+    transition: all 1s;
 }
 
 .menu-header-elements:hover:nth-child(-n + 5) {
