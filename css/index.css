@@ -1,96 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Signika+Negative&display=swap");
+
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 :root {
     font-family: 'Open Sans', sans-serif;
     --main-color: #eb6d2f;
-	--h1-h2-h4-color: #5a3733;
-	background-color: #f9f4f0;
-	}
+    --h1-h2-h4-color: #5a3733;
+    background-color: #f9f4f0;
+}
 
 * {
-    margin : 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-	text-decoration: none;
-	padding: 0;
+    text-decoration: none;
+    padding: 0;
     border: 0;
 }
 
 /* Спільні елементи */
 h1 {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 86px;
-	color: var(--h1-h2-h4-color);
-	font-weight: bold;
-	margin: 25px 0 15px 0;
-	font-weight: bold;
-	word-wrap: break-word;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 86px;
+    color: var(--h1-h2-h4-color);
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+    font-weight: bold;
+    word-wrap: break-word;
 }
+
 h2 {
-	font-family: "Signika Negative", sans-serif;
-	font-size: 50px;
-	color: var(--h1-h2-h4-color);
-	font-weight: bold;
-	margin: 25px 0 15px 0;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+    color: var(--h1-h2-h4-color);
+    font-weight: bold;
+    margin: 25px 0 15px 0;
 }
 
 h3 {
-	color: var(--main-color);
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	font-size: 14px;
+    color: var(--main-color);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 14px;
 }
+
 h4 {
-	font-family: "Signika Negative", sans-serif;
-	color: var(--h1-h2-h4-color);
-	font-size: 18px;
-	font-weight: bold;
-	margin: 20px 0 20px 0;
+    font-family: "Signika Negative", sans-serif;
+    color: var(--h1-h2-h4-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
 }
+
 .text-colums {
-	color: #413939;
-	font-size: 14px;
-	line-height: 1.7;
+    color: #413939;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .small-text {
-	color: rgb(65, 57, 57);
-	font-size: 16px;
-	line-height: 1.6;
-	margin: 15px 0 15px 0;
+    color: rgb(65, 57, 57);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 0 15px 0;
 }
+
 .strip-orange {
-	width: 50px;
-	border-bottom: 4px var(--main-color) solid;
+    width: 50px;
+    border-bottom: 4px var(--main-color) solid;
 }
+
 .button-orange {
-	background-color: var(--main-color);
-	border-radius: 8px;
-	border-width: 2px;
-	width: 130px;
-	height: 45px;
-	letter-spacing: 0.03em;
-	text-align: center;
-	cursor: pointer;
-	font-size: 16px;
-	color: white;
-	
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border-width: 2px;
+    width: 130px;
+    height: 45px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+
 }
+
 .text-yellow {
-	text-align: center;
-	color: #ffd832;
-	font-size: 13.5px;
-	line-height: 1.33em;
-	letter-spacing: 0.03em;
-	margin: 30px 0 0 0;
-	font-weight: bold;
+    text-align: center;
+    color: #ffd832;
+    font-size: 13.5px;
+    line-height: 1.33em;
+    letter-spacing: 0.03em;
+    margin: 30px 0 0 0;
+    font-weight: bold;
 }
+
 .text-yellow:hover {
-	text-decoration: underline;
-	cursor: pointer;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*  
@@ -101,132 +110,140 @@ font-family: 'Signika Negative', sans-serif;
 /* Kuzil Taras */
 /* Header */
 .head-img {
-	width: auto;
-	height: 52.14px;
-	position: absolute;
-	top: 30px;
-	right: 220px;
-	left: 50px;
+    width: auto;
+    height: 52.14px;
+    position: absolute;
+    top: 30px;
+    right: 220px;
+    left: 50px;
 }
+
 .head {
-	width: auto;
-	height: 112px;
-	display: flex;
-	flex-wrap: wrap;
+    width: auto;
+    height: 112px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-header {
-	font-size: 14px;
-	width: auto;
-	height: 57px;
-	margin: 30px 0 0 540px;
-	display: flex;
-	flex-wrap: wrap;
+    font-size: 14px;
+    width: auto;
+    height: 57px;
+    margin: 30px 0 0 540px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-elements {
-	width: 110px;
-	height: 38px;
-	padding: 0;
-	text-align: center;
-	color: var(--h1-h2-h4-color);
-	margin: 17px 0 0 5px;
+    width: 110px;
+    height: 38px;
+    padding: 0;
+    text-align: center;
+    color: var(--h1-h2-h4-color);
+    margin: 17px 0 0 5px;
 
-	font-weight: 600;
+    font-weight: 600;
 }
 
 #button_border {
-	border: 2px solid var(--main-color);
-	border-radius: 6px;
-	padding: 7px;
-	margin: 8px 0 15px 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    padding: 7px;
+    margin: 8px 0 15px 20px;
 }
+
 #button_border:hover {
-	color: white;
-	background-color: var(--main-color);
+    color: white;
+    background-color: var(--main-color);
 }
 
 .menu-elements:hover:nth-child(-n + 5) {
-	color: var(--main-color);
-	border-bottom: 0.5px solid var(--main-color);
-	height: 25px;
+    color: var(--main-color);
+    border-bottom: 0.5px solid var(--main-color);
+    height: 25px;
 }
+
 /* Section-1 */
-.section-1{
-background-image: url(/img/backgroundblock1.jpg);
-background-size: cover;
-width: auto;
-min-height: 839px;
-position: relative;
+.section-1 {
+    background-image: url(../img/backgroundblock1.jpg);
+    background-size: cover;
+    width: auto;
+    min-height: 839px;
+    position: relative;
 }
+
 .text-section-1 {
-position: absolute;
-top: 320px;
-left: 160px;
-max-width: 500px;
-max-height: 333px;
-text-align: left;
+    position: absolute;
+    top: 320px;
+    left: 160px;
+    max-width: 500px;
+    max-height: 333px;
+    text-align: left;
 }
 
 #button-orange-section-1 {
-margin: 30px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .button-orange:hover {
-background-color: orange;
+    background-color: orange;
 }
+
 /* Section-2 */
 .section-2 {
-	background-image: url(/img/background-block-2.webp);
-	background-size: cover;
-	position: relative;
-	width: auto;
-	height: 750px;
-	margin: 0 auto;
+    background-image: url(../img/background-block-2.webp);
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 750px;
+    margin: 0 auto;
 }
+
 .text-section-2 {
-	text-align: center;
-	max-width: 700px;
-	margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
+
 #strip-orange-section-2 {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .small-text {
-	color: rgb(65, 57, 57);
-	font-size: 18px;
-	
+    color: rgb(65, 57, 57);
+    font-size: 18px;
+
 }
+
 .block-colums-section-2 {
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	width: auto;
-	max-height: 349px;
-	margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    max-height: 349px;
+    margin-top: 40px;
 }
 
 .content-section-2 {
-	max-width: 1200px;
-	max-height: 655px;
-	margin: 0 auto;
+    max-width: 1200px;
+    max-height: 655px;
+    margin: 0 auto;
 }
 
 .colums-section-2 {
-	text-align: center;
-	background-color: #ffffff;
-	width: 360px;
-	height: 349px;
-	padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    width: 360px;
+    height: 349px;
+    padding: 50px;
 }
 
 img.colums-img {
-	width: 91px;
-	height: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    width: 91px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -243,14 +260,14 @@ img.colums-img {
 /*by Mykola Kuchmenko*/
 
 .store {
-    background: url(img/store-background.webp) ;
+    background: url(img/store-background.webp);
     padding: 120px;
-    
+
 }
 
-.store-text h2, 
-.name-of-goods, 
-.item-price, 
+.store-text h2,
+.name-of-goods,
+.item-price,
 .how-to-order-text h2,
 .step-name {
     font-family: 'Signika Negative', sans-serif
@@ -258,21 +275,21 @@ img.colums-img {
 
 .how-to-order h3,
 .store h3 {
-    color : #eb6d2f;
-    font-size : 14px;
-    text-align :center;
-    }
+    color: #eb6d2f;
+    font-size: 14px;
+    text-align: center;
+}
 
 .store-text h2,
 .how-to-order-text h2 {
     color: rgb(90, 55, 51);
-    text-align :center;
-    font-size : 50px;
+    text-align: center;
+    font-size: 50px;
 }
 
 .name-of-goods {
     color: rgb(147, 147, 147);
-    font-size: 22px; 
+    font-size: 22px;
     text-align: center;
 }
 
@@ -284,10 +301,10 @@ img.colums-img {
     width: 50px;
     border-bottom: 4px #eb6d2f solid;
     margin: 25px 0 20px 0;
-    margin:auto;
+    margin: auto;
 }
 
-.store-text p, 
+.store-text p,
 .how-to-order-description {
     color: rgb(65, 57, 57);
     font-size: 18px;
@@ -298,7 +315,7 @@ img.colums-img {
 
 }
 
-.item-img{
+.item-img {
     margin: auto;
     text-align: center;
 }
@@ -325,7 +342,7 @@ img.colums-img {
     background-color: rgb(235, 109, 47);
     border-radius: 8px;
     border-width: 2px;
-   margin: auto;
+    margin: auto;
     width: 120px;
     height: 45px;
     letter-spacing: 0.03em;
@@ -334,17 +351,18 @@ img.colums-img {
     font-size: 16px;
     color: white;
     font-family: "Open Sans", sans-serif;
-    
+
 }
+
 .store-item-button {
     background-color: orange;
 }
 
 .how-to-order {
-    background:#f7bd00;
+    background: #f7bd00;
 }
 
-.how-to-order-steps{
+.how-to-order-steps {
     display: inline-flex;
 }
 
@@ -373,61 +391,75 @@ img.colums-img {
     border-radius: 8px;
     margin: auto;
     text-align: center;
-    
+
 }
 
-.steps-button{
+.steps-button {
     text-decoration: none;
-    
+
 }
 
 .step-button p {
     color: rgb(255, 255, 255);
     font-weight: 600;
     padding-top: 15px;
-    
+
 }
 
 
 /*by Yuliya Kuzhyk*/
 
-.Honey_questions { }
-.image-honey { 
+.Honey_questions {}
+
+.image-honey {
     height: 516.731px;
     width: 528.826px;
     position: absolute;
     border-image-repeat: stretch;
     box-sizing: border-box;
 }
-.text-block { }
-.strip-orange { }
-.small-text { }
+
+.text-block {}
+
+.strip-orange {}
+
+.small-text {}
+
 .questions-accordion {
-    color:rgb(90, 55, 51);
+    color: rgb(90, 55, 51);
     font-size: 22px;
     font-weight: 700;
     line-height: 30.8px;
 }
+
 #question1 {}
-.questions-content { }
-.Contact_Us_Anytime { }
-.Info { }
-.Details { 
+
+.questions-content {}
+
+.Contact_Us_Anytime {}
+
+.Info {}
+
+.Details {
     font-size: 25px;
-    color:rgb(90, 55, 51);
+    color: rgb(90, 55, 51);
     font-weight: 700;
     line-height: 35px;
 }
+
 .Quote {
     font-size: 15px;
-    color:rgb(90, 55, 51);
+    color: rgb(90, 55, 51);
     font-weight: 400;
     line-height: 19.95px;
     text-align: start;
 
- }
-.button-orange { }
-.Footer { }
+}
+
+.button-orange {}
+
+.Footer {}
+
 .bottom_grey {
     font-size: 14px;
     color: rgb(170, 155, 143);
@@ -436,14 +468,19 @@ img.colums-img {
     letter-spacing: 1.4px;
     text-align: center;
 }
-.menu-footer { }
-.menu-elements { }
-.icons-footer { }
-.button_icons { }
+
+.menu-footer {}
+
+.menu-elements {}
+
+.icons-footer {}
+
+.button_icons {}
+
 .End {
     font-size: 14px;
-    color:rgb(65,57,57);
+    color: rgb(65, 57, 57);
     font-weight: 400;
     line-height: 21.98px;
     text-align: center;
- }
+}
