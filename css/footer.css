@@ -1,23 +1,36 @@
 .footer {}
 
-.bottom-grey {
+.bottom-grey{
     font-size: 14px;
     color: rgb(170, 155, 143);
     font-weight: 700;
     line-height: 14px;
     letter-spacing: 1.4px;
     text-align: center;
+  }
+
+.menu-footer {
+    text-align: center;
 }
 
-.menu-footer {}
+.menu-elements {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(90, 55, 51);
+    font-size: 16px;
+    font-weight:400;
+    position: static;
+    line-height: 16px;
+}
 
-.menu-elements {}
-
-.icons-footer {}
+.icons-footer {
+    display: flex;
+    justify-content: center;
+}
 
 .button-icons {}
 
 .end {
+    font-family: ;
     font-size: 14px;
     color: rgb(65, 57, 57);
     font-weight: 400;
