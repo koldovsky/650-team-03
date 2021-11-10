@@ -9,7 +9,7 @@
 
 .header {
     width: auto;
-    height: 112px;
+    min-height: 112px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -19,7 +19,7 @@
 .menu-header {
     font-size: 14px;
     width: auto;
-    height: 57px;
+    min-height: 57px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -31,8 +31,8 @@
     padding: 0;
     text-align: center;
     color: var(--h1-h2-h4-color);
-    margin: 17px 0 0 5px;
     font-weight: 600;
+    flex-wrap: wrap;
 }
 
 #menu-header-elements-button-border {

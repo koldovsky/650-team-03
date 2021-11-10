@@ -6,6 +6,11 @@
     position: absolute;
     border-image-repeat: stretch;
     box-sizing: border-box;
+
+}
+
+
+
 }
 
 .text-block {}
