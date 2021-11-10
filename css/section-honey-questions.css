@@ -1,12 +1,19 @@
 .honey-questions {}
 
 .image-honey {
-    height: 516.731px;
-    width: 528.826px;
+    height: 265.788px;
+    width: 272px;
     position: absolute;
     border-image-repeat: stretch;
     box-sizing: border-box;
-}
+  }
+  
+  @media(min-width: 320px){
+    .image-honey {
+      height: 516.731px;
+      width: 528.826px;
+      }
+  }
 
 .text-block {}
 
