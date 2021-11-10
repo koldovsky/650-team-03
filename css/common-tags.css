@@ -21,6 +21,11 @@ a:hover {
     border: 0;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 /* Спільні елементи */
 h1 {
     font-family: "Signika Negative", sans-serif;
