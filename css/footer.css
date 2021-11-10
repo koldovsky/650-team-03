@@ -1,0 +1,26 @@
+.footer {}
+
+.bottom_grey {
+    font-size: 14px;
+    color: rgb(170, 155, 143);
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+.menu-footer {}
+
+.menu-elements {}
+
+.icons-footer {}
+
+.button_icons {}
+
+.end {
+    font-size: 14px;
+    color: rgb(65, 57, 57);
+    font-weight: 400;
+    line-height: 21.98px;
+    text-align: center;
+}

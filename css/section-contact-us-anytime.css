@@ -1,0 +1,21 @@
+.contact_us_anytime {}
+
+.info {}
+
+.details {
+    font-size: 25px;
+    color: rgb(90, 55, 51);
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.quote {
+    font-size: 15px;
+    color: rgb(90, 55, 51);
+    font-weight: 400;
+    line-height: 19.95px;
+    text-align: start;
+
+}
+
+.button-orange {}

@@ -1,0 +1,26 @@
+.honey_questions {}
+
+.image-honey {
+    height: 516.731px;
+    width: 528.826px;
+    position: absolute;
+    border-image-repeat: stretch;
+    box-sizing: border-box;
+}
+
+.text-block {}
+
+.strip-orange {}
+
+.small-text {}
+
+.questions-accordion {
+    color: rgb(90, 55, 51);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px;
+}
+
+#question1 {}
+
+.questions-content {}
