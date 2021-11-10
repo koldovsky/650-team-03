@@ -1,4 +1,10 @@
-.footer {}
+.footer {
+    text-align: center;
+}
+
+.footer img{
+    width: 69px;
+  }
 
 .bottom-grey{
     font-size: 14px;
