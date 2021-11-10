@@ -1,12 +1,13 @@
 .section-clients-feedback {
-    background-color: #5a3733;
+    background-color:#5a3733 ;
     font-family: Open Sans, sans-serif;
     text-align: center;
 }
 .subtitle {
+    line-height: 150px;
     font-family: Open Sans, sans-serif;
     color: #f7bd00;
-    text-style: bold;
+    font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 14px;
     height: 50px;
@@ -15,6 +16,7 @@
 h6 {
     font-size: 50px;
     color: white;
+    line-height: 200px;
 
 }
 .small-text- {
@@ -35,3 +37,13 @@ h6 {
     margin: auto;
     ;
 }
+
+.clients-feedback {
+    background-color: #5f3834;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}    
+    @media(min-width: 800px;) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
