@@ -12,11 +12,10 @@
     font-size: 14px;
 }
 
-h6 {
+.section-clients-feedback h6 {
+    font-family: "Signika Negative";
     font-size: 50px;
     color: white;
-    line-height: 200px;
-
 }
 .small-text- {
     color: white;
