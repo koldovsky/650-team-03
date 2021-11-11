@@ -2,21 +2,20 @@
     background-color:#5a3733 ;
     font-family: Open Sans, sans-serif;
     text-align: center;
+    padding-bottom: 20px;
 }
-.subtitle {
-    line-height: 150px;
+.feedback {
     font-family: Open Sans, sans-serif;
     color: #f7bd00;
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 14px;
-    ;
 }
-h6 {
+
+.section-clients-feedback h6 {
+    font-family: "Signika Negative";
     font-size: 50px;
     color: white;
-    line-height: 200px;
-
 }
 .small-text- {
     color: white;
@@ -37,10 +36,12 @@ h6 {
     ;
 }
 
-.clients-feedback {
-    background-color: #5f3834;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}    
+.clients-feedback .column-feedback-responce {
+    display: flex;
+    flex-direction: column;
+    background-color: #753e37;;
+    margin: 20px 40px 20px 40px;
+    
+}   
 
 
