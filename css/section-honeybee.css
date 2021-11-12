@@ -24,7 +24,7 @@
     }
 
     .section-honeybee {
-
+        background-image: url(../img/backgroundblock1.jpg);
         background-size: cover;
         padding: 130px 24px 130px 24px;
         word-wrap: break-word;
