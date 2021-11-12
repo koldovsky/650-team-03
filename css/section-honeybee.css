@@ -1,4 +1,4 @@
-@media(min-width:980px) {
+@media(min-width:991px) {
 
     .section-honeybee {
         background-image: url(../img/backgroundblock1.jpg);
@@ -18,7 +18,7 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:990px) {
     h1 {
         font-size: 62px;
     }
