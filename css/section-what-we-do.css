@@ -50,7 +50,7 @@
     margin: 0 auto;
 }
 
-@media(max-width:320px) {
+@media(max-width:376px) {
 
     .section-what-we-do {
         background-image: url('/img/background-block-2.webp');
