@@ -1,25 +1,46 @@
-.section-honeybee {
-    background-image: url(../img/backgroundblock1.jpg);
-    background-size: cover;
-    width: auto;
-    min-height: 839px;
-    position: relative;
+@media(min-width:980px) {
+
+    .section-honeybee {
+        background-image: url(../img/backgroundblock1.jpg);
+        background-size: cover;
+        width: auto;
+        min-height: 839px;
+        position: relative;
+    }
+
+    .text-section-honeybee {
+        position: absolute;
+        top: 320px;
+        left: 160px;
+        max-width: 500px;
+        max-height: 333px;
+        text-align: left;
+    }
 }
 
-.text-section-honeybee {
-    position: absolute;
-    top: 320px;
-    left: 160px;
-    max-width: 500px;
-    max-height: 333px;
-    text-align: left;
+@media(max-width:320px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    .section-honeybee {
+        background-image: url('/img/backgroundblock1.jpg');
+        background-size: cover;
+        padding: 130px 24px 130px 24px;
+        word-wrap: break-word;
+    }
+
+
+
+
+    .text-section-honeybee {
+
+        text-align: left;
+        word-wrap: break-word;
+
+    }
 }
 
 #button-section-honeybee {
     margin: 30px 0 0 0;
-}
-
-.button:hover {
-    background-color: orange;
-    transition: all 0.5s;
 }

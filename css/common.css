@@ -92,6 +92,11 @@ h4 {
 
 }
 
+.button:hover {
+    background-color: orange;
+    transition: all 0.5s;
+}
+
 .text-learn-more {
     text-align: center;
     color: #ffd832;
