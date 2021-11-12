@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-.strip-orange-store {
+.strip-store {
     width: 50px;
     border-bottom: 4px #eb6d2f solid;
     margin: 25px 0 20px 0;
@@ -146,5 +146,3 @@
     padding-top: 15px;
 
 }
-
-

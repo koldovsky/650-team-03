@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-#strip-orange-section-what-we-do {
+#strip-section-what-we-do {
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@
 
 }
 
-.block-colums-section-what-we-do {
+.block-columns-section-what-we-do {
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -38,7 +38,7 @@
     margin: 0 auto;
 }
 
-.colums-section-what-we-do {
+.columns-section-what-we-do {
     text-align: center;
     background-color: #ffffff;
     width: 360px;
@@ -46,7 +46,7 @@
     padding: 50px;
 }
 
-img.colums-img-section-what-we-do {
+img.columns-img-section-what-we-do {
     width: 91px;
     height: 100px;
     display: block;

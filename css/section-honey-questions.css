@@ -1,23 +1,23 @@
 .honey-questions {}
 
-.image-honey img{
-  height: 265.788px;
-  width: 272px;
-  position: absolute;
-  border-image-repeat: stretch;
-  box-sizing: border-box;
+.image-honey img {
+    height: 265.788px;
+    width: 272px;
+    position: absolute;
+    border-image-repeat: stretch;
+    box-sizing: border-box;
 }
 
-@media(min-width: 320px){
-  .image-honey img {
-    height: 516.731px;
-    width: 528.826px;
+@media(min-width: 320px) {
+    .image-honey img {
+        height: 516.731px;
+        width: 528.826px;
     }
 }
 
 .text-block {}
 
-.strip-orange {}
+.strip {}
 
 .small-text {}
 

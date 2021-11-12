@@ -21,7 +21,7 @@ a:hover {
     border: 0;
 }
 
-img{
+img {
     width: 100%;
     display: block;
 }
@@ -60,7 +60,7 @@ h4 {
     margin: 20px 0 20px 0;
 }
 
-.text-colums {
+.text-columns {
     color: #413939;
     font-size: 14px;
     line-height: 1.7;
@@ -73,12 +73,12 @@ h4 {
     margin: 15px 0 15px 0;
 }
 
-.strip-orange {
+.strip {
     width: 50px;
     border-bottom: 4px var(--main-color) solid;
 }
 
-.button-orange {
+.button {
     background-color: var(--main-color);
     border-radius: 8px;
     border-width: 2px;
@@ -92,7 +92,7 @@ h4 {
 
 }
 
-.text-yellow {
+.text-learn-more {
     text-align: center;
     color: #ffd832;
     font-size: 13.5px;
@@ -102,7 +102,7 @@ h4 {
     font-weight: bold;
 }
 
-.text-yellow:hover {
+.text-learn-more:hover {
     text-decoration: underline;
     cursor: pointer;
 }
