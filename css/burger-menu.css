@@ -7,6 +7,8 @@
         font-size: 2rem;
         display: flex;
         justify-content: flex-end;
+        position: fixed;
+        top: 30px;
     }
 
     header nav .menu-header {
