@@ -3,8 +3,9 @@
 
 
 .store-how-to {
+    
     margin-top: 50px;
-       
+ 
 }
 
 .store {
@@ -162,6 +163,10 @@
     
 }
 
+.step-button:hover {
+    background-color: #5a3733 ;
+}
+
 .steps-button {
     text-decoration: none;
 }
@@ -170,5 +175,32 @@
     color: rgb(255, 255, 255);
     font-weight: 600;
     padding-top: 15px;
+
+}
+
+@media (min-width: 770px) {
+    .goods {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .how-to-order-steps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (min-width: 991px) {
+    .goods {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .how-to-order-steps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
