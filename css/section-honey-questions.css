@@ -1,33 +1,94 @@
-.honey-questions {}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Signika+Negative&display=swap");
 
-.image-honey img {
-    height: 265.788px;
-    width: 272px;
-    position: absolute;
-    border-image-repeat: stretch;
-    box-sizing: border-box;
+
+
+.honey-questions {
+    padding: 55px 0px;
 }
 
-@media(min-width: 320px) {
-    .image-honey img {
-        height: 516.731px;
-        width: 528.826px;
+.image-honey img{
+    height: 557px;
+    width: 570px;
+    background-color: transparent;
+    display: block;
+    /* position: absolute; */
+}
+
+@media(min-width: 320px){
+  .image-honey img {
+    height: 265.788px;
+    width: 272px;
     }
 }
 
-.text-block {}
-
-.strip {}
-
-.small-text {}
-
-.questions-accordion {
-    color: rgb(90, 55, 51);
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 30.8px;
+.text-block {
+    width: 302px;
+    margin: 50px 0px 0px;
+    padding: 0px 15px;
 }
 
-#question1 {}
+.questions-accordion {
+    width: 100%;
+    margin: auto;
+}
 
-.questions-content {}
+.questions-accordion .questions-content{
+    width: 98%;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+    line-height: 28px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.questions-accordion label{
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.questions-accordion input {
+    display: none;
+}
+
+
+.questions-accordion label::before {
+    content: "+";
+    float: right;
+}
+
+.questions-accordion input:checked+label {
+}
+
+.questions-accordion input:checked+label::before {
+    content: "-";
+    transition: 0.5s;
+}
+
+.questions-accordion input:checked~.questions-content{
+    transition: height 0.5s;
+    height: auto;
+}
+
+
+.questions {
+    font-family: "Signika Negative", sans-serif;
+    color: rgb(90, 55, 51);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+.questions-content {
+    color: rgb(65, 57, 57);
+    font-size: 16px;
+    line-height: 27.2px;
+}
