@@ -18,13 +18,13 @@
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:768px) {
     h1 {
         font-size: 62px;
     }
 
     .section-honeybee {
-        background-image: url('/img/backgroundblock1.jpg');
+
         background-size: cover;
         padding: 130px 24px 130px 24px;
         word-wrap: break-word;

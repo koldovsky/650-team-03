@@ -63,7 +63,7 @@
 /* mobile (320px)*/
 
 
-@media(max-width:375px) {
+@media(max-width:768px) {
     .header {
         display: flex;
         justify-content: flex-end;
