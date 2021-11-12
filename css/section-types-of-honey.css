@@ -1,30 +1,87 @@
-.section-types-of-honey {
+.check-icon {
+    padding-right: 10px;
+    height: 24px;
+}
+
+.check-option {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-
-    grid-template-rows: 1fr1, 2fr;
-
+    align-items: center;    
 }
 
-/*
 .types-of-honey-info {
-
+    margin: 10px;
 }
 
-.types-honey-options {
-
-}
-*/
-
+/*  min-width 600px
 .types-of-honey-carousel {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
 }
-
+*/
 
 .columns-img {
     height: 100px;
 }
+
+.button-shop-now {
+	background-color: #eb6d2f;
+	border-radius: 8px;
+	border-width: 2px;
+	width: 130px;
+	height: 45px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+.strip {
+    height: 4px;
+    width: 20%;
+    color: #eb6d2f;
+    border-bottom: 4px #eb6d2f solid;
+    margin: 0;
+}
+
+.columns-carousel-types {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 450px;
+    align-items: center;
+}
+
+.types-of-honey-carousel {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5a3733;
+}
+.text-columns {
+    font-size: 16px;
+    color: #5a3733;
+}
+
+/*
+.section-types-of-honey {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    grid-template-rows: 1fr1, 2fr;
+}
+*/
