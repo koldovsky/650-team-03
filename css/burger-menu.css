@@ -1,4 +1,4 @@
-@media (max-width:979px) {
+@media (max-width:990px) {
     #burger-checkbox {
         display: none;
     }
@@ -28,7 +28,7 @@
 
 
 
-@media (min-width: 980px) {
+@media (min-width: 991px) {
 
     .burger-icon {
         display: none;
