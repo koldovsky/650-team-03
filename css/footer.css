@@ -51,11 +51,7 @@
     cursor: pointer;
     color: #eb6d2f;
     fill: #eb6d2f;
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    
-    
+    border-radius: 50%; 
 }
 
 .social-icons {
@@ -64,8 +60,9 @@
     border-radius: 50%;
 }
 
-.social-icons svg{
+.social-icons img{
     margin-right: 5px;
+    width: 38px;
 }
 
 .footer-bottom{
