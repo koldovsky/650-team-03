@@ -13,6 +13,11 @@
     margin: 10px;
 }
 
+.types-honey-options {
+    display: flex;
+    justify-content: flex-start;
+}
+
 /*  min-width 600px
 .types-of-honey-carousel {
     display: flex;
