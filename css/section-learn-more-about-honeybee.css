@@ -1,14 +1,15 @@
 .section-about-honeybee {
     background-color: var(background-color);
 
+
 }
-.section-about-honeybee h3 {
-    display: block;
-    font-family: 'Open sans', sans-serif; 
-    font-stretch: 100%;
+.section-about-honeybee .text-section-about-honeybee h3{
+    display:block;
+    font-family: Open Sans, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
     font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
+    font-stretch: 100%;
     text-align: center;
 }
 .section-about-honeybee h2 {
@@ -22,21 +23,29 @@
     font-family: "Signika Negative", sans-serif;
     font-size: 20px;
     color: var(--h1-h2-h4-color);
-    text-align: center;
+    text-align: left;
 }
 .section-about-honeybee .strip {
     margin: auto;
     width: 70px;
 
 }
-.text-section-about-honeebee .small-text {
-    display: block;
+.text-section-about-honeybee .small-text {
     text-align: center;
 }
 .about-honeybee {
     display: flex;
-    flex-direction: column; 
-
+    flex-direction: column;
+} 
+.about-honeybee .colomn-learn-more {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    -webkit-background-composite: padding;
+    justify-content: flex-start;
+    margin: 20px 40px 20px 40px; 
+    padding: 15px 15px 15px 15px;
+}
     
 }
 .colomn-learn-more {
