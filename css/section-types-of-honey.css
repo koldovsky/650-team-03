@@ -1,34 +1,21 @@
 .check-icon {
-    padding-right: 10px;
+    width: 20px;
     height: 24px;
 }
 
 .check-option {
     display: flex;
-    flex-direction: row;
-    align-items: center;    
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .types-of-honey-info {
     margin: 10px;
 }
 
-.types-honey-options {
-    display: flex;
-    justify-content: flex-start;
-}
-
-/*  min-width 600px
-.types-of-honey-carousel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-*/
-
 .columns-img {
     height: 100px;
+    width: 100px;
 }
 
 .button-shop-now {
@@ -60,14 +47,17 @@
     justify-content: space-around;
     text-align: center;
     background-color: #ffffff;
-    width: 300px;
-    height: 450px;
+    width: 291px;
+    height: 500px;
     align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(192, 192, 192, 0.5) 0 0 15px;
 }
 
 .types-of-honey-carousel {
     margin: 10px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -76,17 +66,28 @@
     font-weight: bold;
     color: #5a3733;
 }
+
 .text-columns {
     font-size: 16px;
     color: #5a3733;
 }
 
-/*
-.section-types-of-honey {
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    grid-template-rows: 1fr1, 2fr;
+@media (min-width:992px) {
+    .section-types-of-honey {
+        margin: 0 5% 0 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .types-of-honey-info {
+        margin-right: 0;
+        flex-basis: 270em;
+    }
+
+    .types-of-honey-carousel{
+        display: flex;
+        padding: 0 0 0 0;
+        flex-wrap: wrap;
+        flex-basis: 700em;
+    }
 }
-*/
