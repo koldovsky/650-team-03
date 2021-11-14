@@ -72,6 +72,10 @@
     color: #5a3733;
 }
 
+.section-types-of-honey {
+    margin: 0 5% 0 5%;
+}
+
 @media (min-width:992px) {
     .section-types-of-honey {
         margin: 0 5% 0 5%;
