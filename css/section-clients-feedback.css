@@ -52,13 +52,7 @@
     align-items: center;  
     margin: 20px 40px 20px 40px;
 }  
-@media (min-widht:715px){
-    .clients-feedback .column-feedback-responce{
-    display: flex;
-    flex-direction: column;
-    flex: 1fr 1fr;
-    }
-}
+
 }
 .feedback-text{
     font-family: Open sans, sans-serif;
