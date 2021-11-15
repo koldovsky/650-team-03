@@ -45,10 +45,6 @@
 .text-section-about-honeybee .small-text {
     text-align:center;
 }
-.about-honeybee {
-    display: flex;
-    flex-direction: column;
-} 
 .colomn-learn-more {
     display: block;
     background-color: white;
@@ -58,18 +54,24 @@
     padding: 15px 15px 15px 15px;  
 }
 @media (min-width:720px) {
-    .colomn-learn-more {
+    .about-honeybee {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:980px) {
+    .about-honeybee {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-
-.colomn-learn-more {
-    display:block;
+.colomn-learn-more{
+    display: block;
 }
 .about-honeybee .colomn-img{
   border-radius: 5%; 
   margin: auto;
+  size: 250px;
 }
 .about-honeybee .colomn-text {
     text-align: left;
