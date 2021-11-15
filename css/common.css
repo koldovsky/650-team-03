@@ -9,6 +9,7 @@ html,
 body {
     overflow-x: hidden;
     position: relative;
+    czczxzxczczx
 }
 
 
@@ -26,7 +27,7 @@ a:hover {
     text-decoration: none;
 }
 
-body {
+body { /* вище вже задані ці значення*/
     overflow-x: hidden;
 }
 
@@ -95,7 +96,7 @@ h4 {
 .small-text {
     color: rgb(65, 57, 57);
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.6em;
     margin: 15px 0 15px 0;
 }
 

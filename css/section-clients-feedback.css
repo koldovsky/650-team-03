@@ -49,8 +49,11 @@
     display: flex;
     flex-direction: column;
     background-color: #753e37;
-    margin: 20px 40px 20px 40px;  
+    align-items: center;  
+    margin: 20px 40px 20px 40px;
 }  
+
+}
 .feedback-text{
     font-family: Open sans, sans-serif;
     font-size: 18px;
@@ -69,12 +72,13 @@
     text-align: center;
     padding: 50px 20px 50px 20px;
 }
+
 .statistic .column-statistic h3 {
     font-family: Signika Negative, sans-serif;
     font-size: 38px;
     padding-bottom: 10px;
-
 }
+
 .statistic .how-many p {
     font-family: Open Sans, sans-serif; 
     color: var(--h1-h2-h4-color);
