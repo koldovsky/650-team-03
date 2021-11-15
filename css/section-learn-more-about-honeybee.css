@@ -49,14 +49,19 @@
     display: flex;
     flex-direction: column;
 } 
-.about-honeybee .colomn-learn-more {
-    display: flex;
-    flex-direction: column;
+.colomn-learn-more {
+    display: block;
     background-color: white;
     border-radius: 5%;
-    justify-content: flex-start;
+    align-items: center;
     margin: 20px 40px 20px 40px; 
     padding: 15px 15px 15px 15px;  
+}
+@media (min-width:720px) {
+    .colomn-learn-more {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .colomn-learn-more {

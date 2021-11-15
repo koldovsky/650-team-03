@@ -45,18 +45,16 @@
 }
 
 
-.clients-feedback .column-feedback-responce {
+.column-feedback-responce {
     display: block;
     background-color: #753e37;
     align-items: center;  
     margin: 20px 40px 20px 40px;
 }  
 @media (min-width:720px) {
-    .clients-feedback  {
+    .clients-feedback{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        background-color: #753e37;
-        align-items: center;  
     }
 }
 
@@ -69,7 +67,6 @@
     vertical-align: baseline;
     color: whitesmoke;
     text-align: center;
-    margin: 5px 5px 5px 5px;
 }
 .statistic .column-statistic {
     background-color: var(--background-color);
@@ -111,5 +108,10 @@
     flex: 1fr;
     justify-content: space-around;
 }
-
+@media (min-width:720px) {
+    .statistic{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
