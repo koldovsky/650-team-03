@@ -1,11 +1,13 @@
 @media(max-width:940px) {
     .honey-questions {
         padding: 55px 0px;
+        display: flex;
+        flex-direction: column;
     }
     
     .image-honey img{
-        height: 557px;
-        width: 570px;
+        max-height: 557px;
+        max-width: 570px;
         background-color: transparent;
         /*position: absolute; */
     }
@@ -80,22 +82,21 @@
     .questions-content {
         color: rgb(65, 57, 57);
         font-size: 16px;
-        line-height: 27.2px;
     }
-    }
+}
     
-    @media(min-width:941px){
+@media(min-width:941px){
         .honey-questions {
             display: flex;
             flex-direction: row;
             padding: 55px 0px;
-            justify-content: space-between;
+            justify-content: center;
         }
     
     
         .image-honey img{
-            height: 557px;
-            width: 434.36px;
+            min-height: 557px;
+            min-width: 434.36px;
             background-color: transparent;
             /* position: absolute; */
         }
@@ -103,7 +104,7 @@
         .text-block {
             margin: 50px 0px 0px;
             padding: 0px 15px;
-            width: 444.5px;
+            width: 570px;
             text-align: left;
             line-height: 27.2px;
             display: flex;
@@ -172,7 +173,6 @@
         .questions-content {
             color: rgb(65, 57, 57);
             font-size: 16px;
-            line-height: 27.2px;
         }   
-    }
+}
     

@@ -46,14 +46,20 @@
 
 
 .clients-feedback .column-feedback-responce {
-    display: flex;
-    flex-direction: column;
+    display: block;
     background-color: #753e37;
     align-items: center;  
     margin: 20px 40px 20px 40px;
 }  
-
+@media (min-width:720px) {
+    .clients-feedback  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #753e37;
+        align-items: center;  
+    }
 }
+
 .feedback-text{
     font-family: Open sans, sans-serif;
     font-size: 18px;
