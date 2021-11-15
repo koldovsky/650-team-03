@@ -2,6 +2,7 @@
 
     .section-honeybee {
         background-image: url(../img/backgroundblock1.jpg);
+        background-position: center;
         background-size: cover;
         width: auto;
         min-height: 839px;
@@ -11,7 +12,7 @@
     .text-section-honeybee {
         position: absolute;
         top: 320px;
-        left: 160px;
+        left: 100px;
         max-width: 500px;
         max-height: 333px;
         text-align: left;
@@ -25,6 +26,7 @@
 
     .section-honeybee {
         background-image: url(../img/backgroundblock1.jpg);
+        background-position: 41%;
         background-size: cover;
         padding: 130px 24px 130px 24px;
         word-wrap: break-word;

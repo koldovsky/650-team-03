@@ -3,6 +3,7 @@
     .section-what-we-do {
         background-image: url(../img/background-block-2.webp);
         background-size: cover;
+
         position: relative;
         width: auto;
         max-height: 750px;
@@ -15,6 +16,7 @@
         background-color: #ffffff;
         max-width: 360px;
         padding: 50px;
+
     }
 
     img.columns-img-section-what-we-do {
@@ -36,6 +38,7 @@
     justify-content: space-around;
     width: auto;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .content-section-what-we-do {
@@ -54,6 +57,7 @@
 
     .section-what-we-do {
         background-image: url('/img/background-block-2.webp');
+
         background-size: cover;
         padding: 24px;
 
