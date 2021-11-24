@@ -119,9 +119,7 @@ h4 {
 
 }
 
-.button-orange:hover {
-    background-color: orange;
-}
+
 
 
 .button:hover {
@@ -129,7 +127,7 @@ h4 {
     transition: all 0.5s;
 }
 
-.text-learn-more {
+.subtitle-what-we-do {
     text-align: center;
     color: #ffd832;
     font-size: 13.5px;
@@ -139,7 +137,7 @@ h4 {
     font-weight: bold;
 }
 
-.text-learn-more:hover {
+.subtitle-what-we-do:hover {
     text-decoration: underline;
     cursor: pointer;
 }
