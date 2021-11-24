@@ -9,7 +9,7 @@ html,
 body {
     overflow-x: hidden;
     position: relative;
-    czczxzxczczx
+    
 }
 
 
@@ -118,10 +118,6 @@ h4 {
     color: white;
 
 }
-
-
-
-
 .button:hover {
     background-color: orange;
     transition: all 0.5s;
