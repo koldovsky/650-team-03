@@ -53,9 +53,9 @@
 		 renderSlides();
 	}
 
-	setInterval(nextSlide, 60000);
-	document.querySelector('.prev').addEventListener('click', prevSlide);
-	document.querySelector('.next').addEventListener('click', nextSlide);
+	setInterval(nextSlide, 100000);
+	document.querySelector('.types-of-honey-carousel .prev').addEventListener('click', prevSlide);
+	document.querySelector('types-of-honey-carousel .next').addEventListener('click', nextSlide);
 
 	renderSlides();
 
