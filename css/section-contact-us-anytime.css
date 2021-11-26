@@ -87,9 +87,9 @@
         height: 162px;
         width: 466px;
     }
-    }
+}
     
-    @media(min-width:941px){
+@media(min-width:941px){
         .contact-us-anytime {
             display: flex;
             flex-direction: row;
@@ -106,10 +106,16 @@
         }
         
         .details-block {
-            
+               
+        }
+    
+        .Address, .Hours, .Contacts {
+            display: flex;
+            flex-direction: row;
         }
         
         .details-content {
+            margin: 22px;
             font-size: 16px;
             color: rgb(90, 55, 51);
             line-height: 27.2px;
@@ -134,12 +140,36 @@
             padding: 0px 15px;
             /*position: absolute;*/
             background: white padding-box scroll;
-            height: 560px;
+            height: 650px;
             width: 444.5px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
+    
+        .form-control {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        
+        .form-control input {
+            border: 1px solid #f0f0f0;
+            display: block;
+            width: 100%;
+        }
+        
+        .form-control input:focus {
+            outline: 0;
+            border-color: blue;
+        }
+        
+        .form-control.success input {
+            border-color: #2ecc71;
+        }
+        
+        .form-control.error input {
+            border-color: #e74c3c;
+          }
         
         .details-quote {
             height: 43.2px;
@@ -162,4 +192,4 @@
             width: 244.5px;
             margin-bottom: 12px;
         } 
-    }
+}

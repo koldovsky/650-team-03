@@ -73,9 +73,9 @@
         word-wrap: break-word;
         flex-wrap: wrap;
     }
-    }
+}
     
-    @media(min-width:941px){
+@media(min-width:941px){
         .footer {
             text-align: center;
             /*position: absolute;*/
@@ -149,4 +149,4 @@
             line-height: 16px;
             flex-wrap: wrap;
         }
-    }
+}
