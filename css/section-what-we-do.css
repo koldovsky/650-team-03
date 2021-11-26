@@ -110,7 +110,7 @@
         box-shadow: silver 0 0 5px;
         padding: 35px 10px 35px 10px;
         max-width: 242px;
-        max-height: 326px;
+        max-height: auto;
     }
 
     .columns-img-section-what-we-do {
