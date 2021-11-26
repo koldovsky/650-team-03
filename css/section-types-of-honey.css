@@ -43,6 +43,7 @@
 
 .columns-carousel-types {
     margin: 10px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -90,9 +91,7 @@
 
 .types-of-honey-slides {
     display: flex;
-    flex-direction: row;
-    justify-content: ;
-    
+    flex-direction: row;    
 }
 
 
