@@ -52,7 +52,7 @@
         float: right;
     }
     
-    .questions-accordion input:checked+label {}
+   
     
     .questions-accordion input:checked+label::before {
         content: "-";
@@ -72,10 +72,7 @@
         padding: 0px 20px;
     }
     
-    #question1 {}
-    #question2 {}
-    #question3 {}
-    #question4 {}
+   
     
     .questions-content {
         color: rgb(65, 57, 57);
@@ -144,7 +141,7 @@
             float: right;
         }
         
-        .questions-accordion input:checked+label {}
+        
         
         .questions-accordion input:checked+label::before {
             content: "-";
@@ -163,10 +160,7 @@
             font-weight: 700;
         }
         
-        #question1 {}
-        #question2 {}
-        #question3 {}
-        #question4 {}
+       
         
         .questions-content {
             color: rgb(65, 57, 57);
