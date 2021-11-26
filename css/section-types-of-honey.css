@@ -78,10 +78,20 @@
     margin: 0 5% 0 5%;
 }
 
+.button-types-carousel-next {
+    width: 50px;
+    height: 100%;
+}
+
+.button-types-carousel-previous {
+    width: 50px;
+    height: 100%;
+}
+
 .types-of-honey-slides {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: ;
     
 }
 
@@ -101,9 +111,19 @@
     .types-of-honey-carousel{
         display: flex;
         padding: 0 0 0 0;
-        flex-wrap: wrap;
         flex-basis: 700em;
         flex-direction: row;
         align-items: center;
     }
+
+    .button-types-carousel-next {
+        width: 50px;
+        height: 40px;
+    }
+    
+    .button-types-carousel-previous {
+        width: 50px;
+        height: 40px;
+    }
+    
 }
