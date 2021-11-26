@@ -1,4 +1,4 @@
-@media(max-width:940px) {
+
     .footer {
         text-align: center;
     }
@@ -38,7 +38,6 @@
     }
     
     
-    
     .icons-list{
         list-style-type: none;
         display: flex;
@@ -73,7 +72,7 @@
         word-wrap: break-word;
         flex-wrap: wrap;
     }
-}
+
     
 @media(min-width:941px){
         .footer {
@@ -113,9 +112,7 @@
             font-weight: 600;
             margin: 0px 17.5px;
         }
-        
-        
-        
+                
         .icons-list{
             display: flex;
             justify-content: center;

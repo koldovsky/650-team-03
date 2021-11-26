@@ -1,4 +1,4 @@
-@media(max-width:940px) {
+
     .honey-questions {
         padding: 55px 0px;
         display: flex;
@@ -52,8 +52,6 @@
         float: right;
     }
     
-   
-    
     .questions-accordion input:checked+label::before {
         content: "-";
     }
@@ -72,13 +70,11 @@
         padding: 0px 20px;
     }
     
-   
-    
     .questions-content {
         color: rgb(65, 57, 57);
         font-size: 16px;
     }
-}
+
     
 @media(min-width:941px){
         .honey-questions {
@@ -141,8 +137,6 @@
             float: right;
         }
         
-        
-        
         .questions-accordion input:checked+label::before {
             content: "-";
         }
@@ -159,8 +153,6 @@
             line-height: 30.8px;
             font-weight: 700;
         }
-        
-       
         
         .questions-content {
             color: rgb(65, 57, 57);

@@ -1,3 +1,5 @@
+(function() {
+
 const form = document.getElementById('form');
 const username = document.getElementById('username');
 const phone = document.getElementById('phone');
@@ -5,7 +7,7 @@ const email = document.getElementById('email');
 const message = document.getElementById('message');
 
 // Show input error message
-function showError(input, message) {
+function showError(input) {
   const formControl = input.parentElement;
   formControl.className = 'form-control error';
 
@@ -75,3 +77,5 @@ form.addEventListener('submit', function(e) {
   }
 
 });
+
+})();

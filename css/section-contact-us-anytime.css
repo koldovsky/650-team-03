@@ -1,4 +1,3 @@
-@media(max-width:940px) {
     .contact-us-anytime {
         display: flex;
         justify-content: space-between;
@@ -84,7 +83,6 @@
         height: 162px;
         width: 466px;
     }
-}
     
 @media(min-width:941px){
         .contact-us-anytime {
@@ -100,9 +98,7 @@
             justify-content: flex-start;
             width: 444.5px;
             height: 650px;
-        }
-        
-      
+        }      
     
         .Address, .Hours, .Contacts {
             display: flex;
