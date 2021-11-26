@@ -87,9 +87,9 @@
         height: 162px;
         width: 466px;
     }
-    }
+}
     
-    @media(min-width:941px){
+@media(min-width:941px){
         .contact-us-anytime {
             display: flex;
             flex-direction: row;
@@ -192,4 +192,4 @@
             width: 244.5px;
             margin-bottom: 12px;
         } 
-    }
+}
