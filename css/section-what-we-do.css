@@ -100,7 +100,7 @@
         display: flex;
         justify-content: space-around;
         gap: 30px;
-        flex-wrap: wrap;
+        
 
     }
 
@@ -120,18 +120,3 @@
     }
 
 }
-@media(max-width:978px){
-    .columns-section-what-we-do {
-            text-align: center;
-            background-color: #ffffff;
-            max-width: 360px;
-            padding: 50px;
-    
-        }
-        img.columns-img-section-what-we-do {
-            width: 91px;
-            height: 100px;
-            display: block;
-            margin: 0 auto;
-        }
-    }
