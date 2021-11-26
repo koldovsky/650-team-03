@@ -14,6 +14,8 @@
     .columns-section-what-we-do {
         text-align: center;
         background-color: #ffffff;
+        box-shadow: silver  0 0 5px;
+        border-radius: 15px;
         max-width: 360px;
         padding: 50px;
 
@@ -35,10 +37,11 @@
     margin: 0 auto;
 }
 .next{
+    box-shadow: silver 0 0 5px;
 	background-color: white;
 	border-radius: 50%;
 	max-width: 15px;
-	margin-left: 1195px;
+	margin-left: 1199px;
 	margin-top:218px;
 	position: absolute;
 	opacity: 0.6;
@@ -46,8 +49,10 @@
 }
 .next:hover{
 	opacity: 1;
+    box-shadow: black 0 0 2px;
 }
 .prev{
+    box-shadow: silver 0 0 5px;
 	background-color: white;
 	border-radius: 50%;
 	max-width: 15px;
@@ -58,6 +63,7 @@
 }
 .prev:hover{
 	opacity: 1;
+    box-shadow: black 0 0 2px;
 }
 
 .block-columns-section-what-we-do {
@@ -67,7 +73,7 @@
     width: auto;
     margin-top: 40px;
     margin-bottom: 100px;
-    gap:30px;
+    gap: 30px;
 }
 
 .content-section-what-we-do {
@@ -107,7 +113,7 @@
 
     .columns-section-what-we-do {
         background-color: white;
-        border-radius: 5px;
+        border-radius: 15px;
         box-shadow: silver 0 0 5px;
         padding: 35px 10px 35px 10px;
         max-width: 242px;
@@ -123,6 +129,8 @@
 }
 @media(max-width:980px){
     .columns-section-what-we-do {
+        box-shadow: silver  0 0 5px;
+        border-radius: 15px;
             text-align: center;
             background-color: #ffffff;
             max-width: 360px;
