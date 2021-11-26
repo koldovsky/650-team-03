@@ -601,15 +601,19 @@
                 </nav>
             </div>
             <div class="quote">
-                <form action="#">
-                    <input type="text" class="details-quote" name="Name" placeholder="Enter your full name*">
-                    <br>
-                    <input type="tel" class="details-quote" name="Phone" placeholder="Enter your phone number*">
-                    <br>
-                    <input type="text" class="details-quote" name="e-mail" placeholder="Enter your e-mail*">
-                    <br>
-                    <textarea name="text" class="details-quote" placeholder="Type your message"></textarea>
-                    <br>
+                <form id='form' clas='form' >
+                    <div class="form-control">
+                    <input type="text" id='username' class="details-quote" name="Name" placeholder="Enter your full name*"/>
+                    </div>
+                    <div class="form-control">
+                    <input type="tel" id='phone' class="details-quote" name="Phone" placeholder="Enter your phone number*">
+                    </div>
+                    <div class="form-control">
+                    <input type="text" id='email' class="details-quote" name="e-mail" placeholder="Enter your e-mail*">
+                    </div>
+                    <div class="form-control">
+                    <textarea name="text" id='message' class="details-quote" placeholder="Type your message"></textarea>
+                    </div>
                     <button class="button">Request a quote</button>
                 </form>
             </div>
@@ -649,13 +653,12 @@
                 </ul>
             </nav>
             <div class="footer-bottom">
-                <span class="end">© Created by
-                    <br>All rights Reserved</span>
+                <span class="end">© Created by All rights Reserved</span>
             </div>
         </div>
     </footer>
     <!--FOOTER (Yulia Kuzhyk)-->
-
+    <script src="js/contact-us-anytime.js"></script>
     <script src="js/our-honey-carousel.js"></script>
     <script src="js/columnsWhatWeDo.js">
 	</script>

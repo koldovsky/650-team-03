@@ -6,8 +6,8 @@
     }
     
     .image-honey img{
-        max-height: 557px;
-        max-width: 570px;
+        max-height: 683px;
+        max-width: 670px;
         background-color: transparent;
         /*position: absolute; */
     }
@@ -15,7 +15,7 @@
     .text-block {
         display: flex;
         flex-direction: column;
-        width: 302px;
+        max-width: 730px;
         margin: 50px 0px 0px;
         padding: 0px 15px;
     }
@@ -28,18 +28,16 @@
     .questions-accordion .questions-content{
         width: 98%;
         width: calc(100% - 20px);
-        margin: 0 auto;
-        height: 0;
+        height: 40px;
         color: rgba(0, 0, 0, 0);
         line-height: 28px;
         padding: 0 20px;
         box-sizing: border-box;
-        transition: 0.5s;
     }
     
     .questions-accordion label{
         cursor: pointer;
-        padding: 15px;
+        padding: 20px;
         width: 100%;
         z-index: 100;
         box-sizing: border-box;
@@ -83,9 +81,9 @@
         color: rgb(65, 57, 57);
         font-size: 16px;
     }
-}
+    }
     
-@media(min-width:941px){
+    @media(min-width:941px){
         .honey-questions {
             display: flex;
             flex-direction: row;
@@ -104,7 +102,7 @@
         .text-block {
             margin: 50px 0px 0px;
             padding: 0px 15px;
-            width: 570px;
+            min-width: 570px;
             text-align: left;
             line-height: 27.2px;
             display: flex;
@@ -174,5 +172,5 @@
             color: rgb(65, 57, 57);
             font-size: 16px;
         }   
-}
+    }
     
