@@ -28,6 +28,9 @@
 }
 
 /* common */
+.section-what-we-do {
+    padding: 24px;
+}
 #strip-section-what-we-do {
     margin: 0 auto;
 }
@@ -70,7 +73,6 @@
 
 .content-section-what-we-do {
     max-width: 1200px;
-
     margin: 0 auto;
 }
 
@@ -84,9 +86,8 @@
 
     .section-what-we-do {
         background-image: url('/img/background-block-2.webp');
-
         background-size: cover;
-        padding: 24px;
+        
 
     }
 
