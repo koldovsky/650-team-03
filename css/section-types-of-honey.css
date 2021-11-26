@@ -46,7 +46,7 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     background-color: #ffffff;
     width: 300px;
