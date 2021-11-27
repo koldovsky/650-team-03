@@ -75,6 +75,25 @@
 
 </div>
 
+</div>`,
+` <div class="item">
+<a href="#">
+    <div class="item-img">
+        <img src="img/buckwheat-honey.jpg" alt="Buckwheat Honey">
+    </div>
+</a>
+<a href="#">
+    <h4 class="name-of-goods">Buckwheat Honey</h4>
+</a>
+<div class="item-price">
+    <p>$10,00USD</p>
+</div>
+<div class="store-item-button">
+    <button class="item-buy button">Buy Now</button>
+
+
+</div>
+
 </div>`
     ];
 
@@ -83,15 +102,43 @@ let currentSlideIdx = 0;
 function renderOrderSlides(){
     const slidesContainer = document.querySelector('.order-slides-conteiner');
     slidesContainer.innerHTML = slidesItems[currentSlideIdx];
-}
+    if (window.innerWidth > 770) {
+        const slide2Idx = currentSlideIdx + 1 >= slidesItems.length ?  0 : currentSlideIdx + 1;
+        slidesContainer.innerHTML += slidesItems[slide2Idx];
+        if (window.innerWidth > 991) {
+        const slide3Idx = slide2Idx + 1 >= slidesItems.length ? 0 : slide2Idx + 1;
+        const slide4Idx = slide3Idx + 1 >= slidesItems.length ? 0 : slide3Idx + 1;
+        slidesContainer.innerHTML += slidesItems[slide3Idx];
+        slidesContainer.innerHTML += slidesItems[slide4Idx];
+    }
+    }
+    }
+
 
 function nextSlide(){
     currentSlideIdx++;
     if (currentSlideIdx >= slidesItems.length) currentSlideIdx = 0;
     renderOrderSlides();
 } 
-setInterval(nextSlide,3000);
+
+function prevSlide(){
+    currentSlideIdx--;
+    if (currentSlideIdx < 0 ) currentSlideIdx = slidesItems.length-1;
+    renderOrderSlides();
+} 
+document.querySelector('.prev-view').addEventListener('click', prevSlide);
+document.querySelector('.next-view').addEventListener('click', nextSlide);
+
+
+
+//setInterval(nextSlide,3000);
 renderOrderSlides();
+
+window.addEventListener('resize', renderOrderSlides);
+
+
+
+
 
 
 

@@ -116,6 +116,22 @@
     margin-top: 25px;
 }
 
+
+.carousel-order{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+
+.next-view, 
+.prev-view {
+    width: 70px;
+}
+
+
 .how-to-order {
     background: #f7bd00;
     padding-top: 30px;
