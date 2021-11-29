@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta charset="viewport" content="min-width=320" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
@@ -28,11 +29,14 @@
     <!-- Header Taras Kuzil -->
     <div class="container">
         <header>
-            <nav>
+            
                 <div class="header">
-                    <label class="burger-icon" for="burger-checkbox">☰</label>
-                    <input type="checkbox" id="burger-checkbox" />
+                    
                     <img class="header-img" src="img/header.svg" alt="img">
+                    <div class="header__burger">
+						<span></span>
+					</div>
+                    <nav class="header-container-menu">
                     <div class="menu-header">
                         <a href="#why-choose-us-row" class="menu-header-elements">About US</a>
                         <a href="#section-types-of-honey" class="menu-header-elements">Types of Honey</a>
@@ -43,6 +47,7 @@
                             Honey</a>
 
                     </div>
+                    </nav>
                 </div>
             </nav>
         </header>
@@ -666,9 +671,11 @@
         </div>
     </footer>
     <!--FOOTER (Yulia Kuzhyk)-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/buger-menu.js"></script>
     <script src="js/contact-us-anytime.js"></script>
     <script src="js/our-honey-carousel.js"></script>
-    <script src="js/columnsWhatWeDo.js">
+    <script src="js/columns-what-we-do.js">
 	</script>
     <script src="js/what-we-do-carousel.js"></script>
     <script src="js/types-of-honey-carousel.js"></script>

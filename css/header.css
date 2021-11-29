@@ -26,6 +26,7 @@
         display: flex;
         align-items: flex-end;
         flex-wrap: wrap;
+
     }
 }
 
@@ -60,39 +61,6 @@
 }
 
 
+
+
 /* mobile (320px)*/
-
-
-@media(max-width:990px) {
-    .header {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 30px;
-        min-height: 112px;
-    }
-
-    .header-img {
-        width: 196px;
-        height: 52.14px;
-        position: absolute;
-        top: 30px;
-        right: 220px;
-        left: 15px;
-    }
-
-    .menu-header {
-        padding-top: 50px;
-        gap: 15px;
-    }
-
-    .menu-header-elements {
-        margin-left: 20px;
-        padding: 0;
-        text-align: center;
-        color: var(--h1-h2-h4-color);
-        font-weight: 600;
-        flex-wrap: wrap;
-
-    }
-}
