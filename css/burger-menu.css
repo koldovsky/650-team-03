@@ -68,6 +68,10 @@
         align-items: center;
         padding-right: 30px;
         min-height: 112px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: #f9f4f0;
     }
 
     .header-img {
@@ -91,8 +95,9 @@
         overflow: auto;
         padding: 70px 10px 20px 10px;
         transition: all 0.5s ease 0s;
-        z-index: 3;
-        top: 150px;
+        z-index: 1;
+        top: 112px;
+
     }
 
 

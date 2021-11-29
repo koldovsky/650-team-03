@@ -11,13 +11,19 @@
     }
 
     .header {
-        width: auto;
+        width: 100%;
         min-height: 112px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
         margin: 0 40px 0 0;
+
+        position: fixed;
+        z-index: 1;
+        background-color: #f9f4f0;
     }
+
+
 
     .menu-header {
         font-size: 14px;
@@ -62,5 +68,7 @@
 
 
 
+
+/* mobile (320px)*/
 
 /* mobile (320px)*/
