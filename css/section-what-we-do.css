@@ -14,7 +14,7 @@
     .columns-section-what-we-do {
         text-align: center;
         background-color: #ffffff;
-        box-shadow: silver  0 0 5px;
+        box-shadow: silver 0 0 5px;
         border-radius: 15px;
         max-width: 360px;
         padding: 50px;
@@ -33,37 +33,38 @@
 .section-what-we-do {
     padding: 24px;
 }
+
 #strip-section-what-we-do {
     margin: 0 auto;
 }
-.next{
-    box-shadow: silver 0 0 5px;
-	background-color: white;
-	border-radius: 50%;
-	max-width: 15px;
-	position: absolute;
-	opacity: 0.6;
+
+.next {
+    max-width: 35px;
+    position: absolute;
+    opacity: 0.6;
     top: 66%;
-    right: -2%;
+    right: -3.5%;
 
 }
-.next:hover{
-	opacity: 1;
-    box-shadow: black 0 0 2px;
+
+.next:hover {
+    opacity: 1;
+
 }
-.prev{
-    box-shadow: silver 0 0 5px;
-	background-color: white;
-	border-radius: 50%;
-	max-width: 15px;
-	position: absolute;
-	opacity: 0.6;
+
+.prev {
+
+
+    max-width: 35px;
+    position: absolute;
+    opacity: 0.6;
     top: 66%;
-    left: -2%;
+    left: -3.5%;
 }
-.prev:hover{
-	opacity: 1;
-    box-shadow: black 0 0 2px;
+
+.prev:hover {
+    opacity: 1;
+
 }
 
 .block-columns-section-what-we-do {
@@ -93,7 +94,7 @@
     .section-what-we-do {
         background-image: url('/img/background-block-2.webp');
         background-size: cover;
-        
+
 
     }
 
@@ -108,7 +109,7 @@
         display: flex;
         justify-content: space-around;
         gap: 30px;
-        
+
 
     }
 
@@ -128,20 +129,22 @@
     }
 
 }
-@media(max-width:980px){
+
+@media(max-width:980px) {
     .columns-section-what-we-do {
-        box-shadow: silver  0 0 5px;
+        box-shadow: silver 0 0 5px;
         border-radius: 15px;
-            text-align: center;
-            background-color: #ffffff;
-            max-width: 360px;
-            padding: 50px;
-    
-        }
-        img.columns-img-section-what-we-do {
-            width: 91px;
-            height: 100px;
-            display: block;
-            margin: 0 auto;
-        }
+        text-align: center;
+        background-color: #ffffff;
+        max-width: 360px;
+        padding: 50px;
+
     }
+
+    img.columns-img-section-what-we-do {
+        width: 91px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+}
