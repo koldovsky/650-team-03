@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     position: relative;
     min-width: 320px;
-    
+
 }
 
 
@@ -28,9 +28,7 @@ a:hover {
     text-decoration: none;
 }
 
-body { /* вище вже задані ці значення*/
-    overflow-x: hidden;
-}
+
 
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -119,6 +117,7 @@ h4 {
     color: white;
 
 }
+
 .button:hover {
     background-color: orange;
     transition: all 0.5s;
