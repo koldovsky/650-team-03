@@ -35,7 +35,7 @@
     let currentSlideIdx = 0;
 
     function renderSlides () {
-         const slidesContainer = document.querySelector(" .section-clients-feedback .slides-container ");
+         const slidesContainer = document.querySelector(".section-clients-feedback .slides-conteiner");
          slidesContainer.innerHTML = slides[currentSlideIdx];
     }
 
