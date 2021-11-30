@@ -1,186 +1,128 @@
+
+.contact-us-anytime {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 60px 0px;
+    margin-bottom: 70px;
+}
+
+.info {
+    padding: 0px 15px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.details-content {
+    margin: 22px 10px;
+    font-size: 16px;
+    color: rgb(90, 55, 51);
+}
+
+.details-content:hover {
+    text-decoration: underline;
+}
+
+.Address, .Hours, .Contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-map{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(90, 55, 51);
+    max-width: 600px;
+    height: 244px;
+    touch-action: pan-x pan-y;
+}
+
+.quote { 
+    text-align: center;
+    margin: 20px;
+    padding: 20px 15px;
+    /*position: absolute;*/
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    height: 540px;
+    width: 690px;
+    display: flex;
+    justify-content: center;
+    background-attachment: scroll;
+    align-items: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-control input {
+    border: 1px solid #f0f0f0;
+    display: block;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: black;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.details-quote {
+    height: 44px ;
+    width: 466px;
+    padding: 12px 21px;
+    margin-top: 12px;
+    font-size: 16px;
+    color: rgb(90, 55, 51);
+    background: rgb(249, 244, 240);
+    
+    border-radius: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    cursor: text;
+    text-overflow: ellipsis;
+}
+
+textarea.details-quote {
+    height: 162px;
+    margin-bottom: 20px;
+}
+
+@media(min-width:941px){
     .contact-us-anytime {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        padding: 60px 0px;
+        flex-direction: row;
+        padding: 0px 50px;
     }
     
     .info {
-        padding: 0px 15px;
+        width: 570px;
+        height: 686px;
     }
-    
-     
+
     .details-content {
-        font-size: 16px;
-        color: rgb(90, 55, 51);
-        line-height: 27.2px;
-        word-wrap: break-word;
+        margin-left: 50px;
     }
-    
-    .details-map{
-        display: block;
-        /*position: absolute;*/
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 11px;
-        color: rgb(90, 55, 51);
-        max-width: 576px;
-        height: 244px;
-    }
-    
+  
     .quote { 
-        text-align: center;
-        margin: 50px 0px;
-        padding: 50px 15px;
-        /*position: absolute;*/
-        background: white;
-        border-radius: 5px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-        height: 560px;
-        width: 576px;
-        display: flex;
-        justify-content: center;
+        height: 686px;
+        width: 570px;
     }
-    
-    .form-control {
-        margin-bottom: 10px;
-        position: relative;
-    }
-    
-    .form-control input {
-        border: 1px solid #f0f0f0;
-        display: block;
-        width: 100%;
-    }
-    
-    .form-control input:focus {
-        outline: 0;
-        border-color: blue;
-    }
-    
-    .form-control.success input {
-        border-color: #2ecc71;
-    }
-    
-    .form-control.error input {
-        border-color: #e74c3c;
-      }
     
     .details-quote {
-        width: 466px;
-        padding: 12px 21px;
-        margin-top: 12px;
-        font-size: 15px;
-        color: rgb(90, 55, 51);
-        background: rgb(249, 244, 240);
-        line-height: 19.95px;
-        border-radius: 8px;
-        text-align: start;
-        word-wrap: break-word;
-        cursor: text;
+        width: 370px;
+
     }
-    
-    textarea.details-quote {
-        height: 162px;
-        width: 466px;
-    }
-    
-@media(min-width:941px){
-        .contact-us-anytime {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding: 0px 40px;
-        }
-        
-        .info {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            width: 444.5px;
-            height: 650px;
-        }      
-    
-        .Address, .Hours, .Contacts {
-            display: flex;
-            flex-direction: row;
-        }
-        
-        .details-content {
-            margin: 22px;
-            font-size: 16px;
-            color: rgb(90, 55, 51);
-            line-height: 27.2px;
-            word-wrap: break-word;
-        }
-        
-        .details-map{
-            display: block;
-            /*position: absolute;*/
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;
-            color: rgb(90, 55, 51);
-            width: 444.5px;
-            height: 244px;
-            z-index: 3;
-            touch-action: pan-x pan-y;
-        }
-        
-        .quote { 
-            text-align: center;
-            margin: 50px 0px 0px;
-            padding: 0px 15px;
-            /*position: absolute;*/
-            background: white padding-box scroll;
-            height: 650px;
-            width: 444.5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .form-control {
-            margin-bottom: 10px;
-            position: relative;
-        }
-        
-        .form-control input {
-            border: 1px solid #f0f0f0;
-            display: block;
-            width: 100%;
-        }
-        
-        .form-control input:focus {
-            outline: 0;
-            border-color: blue;
-        }
-        
-        .form-control.success input {
-            border-color: #2ecc71;
-        }
-        
-        .form-control.error input {
-            border-color: #e74c3c;
-          }
-        
-        .details-quote {
-            height: 43.2px;
-            width: 244.5px;
-            padding: 12px 21px;
-            margin-top: 12px;
-            font-size: 15px;
-            color: rgb(90, 55, 51);
-            background: rgb(249, 244, 240);
-            line-height: 19.95px;
-            border-radius: 8px;
-            text-align: start;
-            word-wrap: break-word;
-            cursor: text;
-            text-overflow: ellipsis;
-        }
-        
-        textarea.details-quote {
-            min-height: 150px;
-            width: 244.5px;
-            margin-bottom: 12px;
-        } 
 }

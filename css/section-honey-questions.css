@@ -1,162 +1,103 @@
+.honey-questions {
+    padding: 55px 0px;
+    display: flex;
+    flex-direction: column;
+}
 
+.image-honey img{
+    max-height: 683px;
+    max-width: 670px;
+    background-color: transparent;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 730px;
+    margin: 50px 0px 0px;
+    padding: 0px 15px;
+}
+
+.questions-accordion {
+    width: 100%;
+    margin: auto;
+}
+
+.questions-accordion .questions-content{
+    width: calc(100% - 20px);
+    height: 40px;
+    color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.questions-accordion input {
+    display: none;
+}
+
+.questions-accordion label{
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.questions-accordion label::before {
+    content: "+";
+    float: right;
+}
+
+.questions-accordion input:checked+label::before {
+    content: "-";
+}
+
+input:checked+label+.questions-content {
+    height: auto;
+    color:black;
+    transition-duration: 1s;
+}
+
+.questions-accordion input~ {
+    color:white;  
+}
+
+.questions {
+    font-family: "Signika Negative", sans-serif;
+    color: rgb(90, 55, 51);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media(min-width:941px){
     .honey-questions {
-        padding: 55px 0px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
-    
+
     .image-honey img{
-        max-height: 683px;
-        max-width: 670px;
-        background-color: transparent;
-        /*position: absolute; */
+        min-height: 557px;
+        min-width: 434.36px;
     }
     
     .text-block {
-        display: flex;
-        flex-direction: column;
-        max-width: 730px;
-        margin: 50px 0px 0px;
-        padding: 0px 15px;
+        min-width: 570px;
+        text-align: left;
+        justify-content: flex-start;
     }
-    
-    .questions-accordion {
-        width: 100%;
-        margin: auto;
-    }
-    
+       
     .questions-accordion .questions-content{
-        width: 98%;
-        width: calc(100% - 20px);
-        height: 40px;
-        color: rgba(0, 0, 0, 0);
-        line-height: 28px;
-        padding: 0 20px;
-        box-sizing: border-box;
+        margin: 0 auto;
+        height: 0;
     }
     
     .questions-accordion label{
-        cursor: pointer;
-        padding: 20px;
-        width: 100%;
-        z-index: 100;
-        box-sizing: border-box;
-    }
-    
-    .questions-accordion input {
-        display: none;
-    }
-    
-    .questions-accordion label::before {
-        content: "+";
-        float: right;
-    }
-    
-    .questions-accordion input:checked+label::before {
-        content: "-";
-    }
-    
-    .questions-accordion input:checked~.questions-content{
-        height: auto;
-        color:black
+        display: block;
+        padding: 15px;
     }
     
     .questions {
-        font-family: "Signika Negative", sans-serif;
-        color: rgb(90, 55, 51);
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 700;
-        padding: 0px 20px;
-    }
-    
-    .questions-content {
-        color: rgb(65, 57, 57);
-        font-size: 16px;
-    }
-
-    
-@media(min-width:941px){
-        .honey-questions {
-            display: flex;
-            flex-direction: row;
-            padding: 55px 0px;
-            justify-content: center;
-        }
-    
-    
-        .image-honey img{
-            min-height: 557px;
-            min-width: 434.36px;
-            background-color: transparent;
-            /* position: absolute; */
-        }
-        
-        .text-block {
-            margin: 50px 0px 0px;
-            padding: 0px 15px;
-            min-width: 570px;
-            text-align: left;
-            line-height: 27.2px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-        }
-        
-        .questions-accordion {
-            width: 100%;
-            margin: auto;
-        }
-        
-        .questions-accordion .questions-content{
-            width: 98%;
-            width: calc(100% - 20px);
-            margin: 0 auto;
-            height: 0;
-            color: rgba(0, 0, 0, 0);
-            line-height: 28px;
-            padding: 0 20px;
-            box-sizing: border-box;
-        }
-        
-        .questions-accordion label{
-            cursor: pointer;
-            display: block;
-            padding: 15px;
-            width: 100%;
-            z-index: 100;
-            box-sizing: border-box;
-        }
-        
-        .questions-accordion input {
-            display: none;
-        }
-        
-        .questions-accordion label::before {
-            content: "+";
-            float: right;
-        }
-        
-        .questions-accordion input:checked+label::before {
-            content: "-";
-        }
-        
-        .questions-accordion input:checked~.questions-content{
-            height: auto;
-            color:black
-        }
-        
-        .questions {
-            font-family: "Signika Negative", sans-serif;
-            color: rgb(90, 55, 51);
-            font-size: 22px;
-            line-height: 30.8px;
-            font-weight: 700;
-        }
-        
-        .questions-content {
-            color: rgb(65, 57, 57);
-            font-size: 16px;
-        }   
+        font-size: 22px;
+    }  
 }
-    
