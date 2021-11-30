@@ -33,13 +33,35 @@ let currentSlideIdx = 0;
 function renderSlides () {
 const slidesContainer = document.querySelector(".section-about-honeybee .slides-container-learn-more");
 slidesContainer.innerHTML = slides[currentSlideIdx];
+
+if(window.innerWidth > 500) {
+  const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+  slidesContainer.innerHTML += slides[slide2Idx];
+  if(window.innerWidth > 800) {
+    const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
+    slidesContainer.innerHTML += slides[slide3Idx];
+    }
+  }
+
 }
+
 function nextSlide() {
 currentSlideIdx++;
 if( currentSlideIdx >= slides.length) currentSlideIdx = 0;
 renderSlides();
 }
-setInterval(nextSlide, 3000);
+
+function prevSlide() {
+currentSlideIdx--;
+if( currentSlideIdx < 0) currentSlideIdx = slides.length - 1;
 renderSlides();
 }
-)();
+
+setInterval(nextSlide, 5000);
+
+document.querySelector('.container-learn-more .previous-slide-learn').addEventListener('click', prevSlide);
+document.querySelector('.container-learn-more .next-slide-learn').addEventListener('click', nextSlide);
+renderSlides();
+
+
+} )();
