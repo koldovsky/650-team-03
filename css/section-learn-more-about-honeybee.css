@@ -1,9 +1,6 @@
 .section-about-honeybee {
-    background-color: var(background-color);
     text-align: center;
     padding-bottom: 20px;
-
-
 }
 .section-about-honeybee .text-section-about-honeybee h3 {
     display:block;
@@ -13,13 +10,11 @@
     font-size: 18px;
     font-stretch: 100%;
     padding: 10px 25px 10px 25px;
-
 }
 .about-honeybee h3{
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 .section-about-honeybee h2 {
     display: block;
@@ -53,35 +48,38 @@
     padding: 15px 15px 15px 15px;
     text-align:left ;  
 }
-@media (min-width:720px) {
-    .about-honeybee {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media (min-width:980px) {
-    .about-honeybee {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
+
+
 .colomn-learn-more{
     display: block;
 }
 .about-honeybee .colomn-img{
-  border-radius: 15%; 
+  border-radius: 5%; 
   margin: auto;
-  width: 250px;
+  size: 250px;
+
 }
 .about-honeybee .colomn-text {
+   
     text-align: left;
 }    
 
-.container-learn-more .previous-slide-learn {
+
+.container-learn-more .previous-slide-learn-more {
     display: block;
-    width: 2%;
+    width: 4%;
+    margin-left: 10px;
 }
-.container-learn-more .next-slide-learn {
+.container-learn-more .next-slide-learn-more {
     display: block;
-    width: 2%;
+    width: 4%;
+    margin-right: 10px;
 }
+
+.container-learn-more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+

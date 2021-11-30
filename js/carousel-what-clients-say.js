@@ -59,8 +59,8 @@ renderSlides();
 
 setInterval(nextSlide, 5000);
 
-document.querySelector('.container-learn-more .previous-slide-learn').addEventListener('click', prevSlide);
-document.querySelector('.container-learn-more .next-slide-learn').addEventListener('click', nextSlide);
+document.querySelector('.section-about-honeybee .previous-slide-learn-more').addEventListener('click', prevSlide);
+document.querySelector('.section-about-honeybee .next-slide-learn-more').addEventListener('click', nextSlide);
 renderSlides();
 
 
