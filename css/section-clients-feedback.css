@@ -52,6 +52,10 @@
     background-color: #753e37;
     align-items: center;  
     margin: 20px 40px 20px 40px;
+    padding: 15px 15px 15px 15px;
+
+}
+
 }  
 @media (min-width:720px) {
     .clients-feedback{
@@ -69,7 +73,7 @@
     font-style: italic;
     color: whitesmoke;
     text-align:center;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 35px 5px;
 }
 .statistic .column-statistic {
     background-color: var(--background-color);
@@ -90,7 +94,7 @@
     color: var(--h1-h2-h4-color);
     font-weight: bolder;
     font-size: 18px;
-    margin top: 20px;
+    margin-top: 20px;
 }
 .strip-statistic {
     width: 50px;
@@ -125,6 +129,7 @@
     width: 2%;
     height: 4%;
     margin-left: 20px;
+    z-index: 2;
 }
 .nextSlideFeedback {
     display:block;
@@ -132,6 +137,7 @@
     height: 4%;;
     transform :rotate(180deg);
     margin-right: 20px;
+    z-index: 2;
 
 }
 .container-carousel-clients-feebdack {
