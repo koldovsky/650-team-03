@@ -47,7 +47,6 @@
 
 .column-feedback-responce {
     display: block;
-    justify-content: space-between;
     background-color: #753e37;
     align-items: center;  
     margin: 20px 40px 20px 40px;
@@ -118,4 +117,22 @@
 
 .carousel-clients-feedback {
     display: flex;
+}
+.prevSlideFeedback {
+    display: block;
+    width: 1%;
+    height: 3%;
+    marg
+}
+.nextSlideFeedback {
+    display: block;
+    width: 1%;
+    height: 3%;;
+    transform : rotate(180deg);
+}
+.container-carousel-clients-feebdack {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }

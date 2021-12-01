@@ -61,8 +61,8 @@ renderSlides();
 
 setInterval(nextSlide, 5000);
 
-/*document.querySelector('.container-carousel-clients-feedback .prevSlideFeedback).addEventListener('click', prevSlide);
-document.querySelector('.container-carousel-clients-feedback .nextSlideFeedback).addEventListener('click', nextSlide);*/
+document.querySelector('.section-clients-feedback .prevSlideFeedback').addEventListener('click', prevSlide);
+document.querySelector('.section-clients-feedback .nextSlideFeedback').addEventListener('click', nextSlide);
 renderSlides();
 
 
