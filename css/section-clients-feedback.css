@@ -47,6 +47,7 @@
 
 .column-feedback-responce {
     display: block;
+    justify-content: space-between;
     background-color: #753e37;
     align-items: center;  
     margin: 20px 40px 20px 40px;
@@ -115,3 +116,6 @@
     }
 }
 
+.carousel-clients-feedback {
+    display: flex;
+}

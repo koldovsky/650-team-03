@@ -39,10 +39,10 @@ slidesContainer.innerHTML = slides[currentSlideIdx];
 if(window.innerWidth > 500) {
   const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
   slidesContainer.innerHTML += slides[slide2Idx];
-  if(window.innerWidth > 800) {
+  /*if(window.innerWidth > 800) {
     const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
     slidesContainer.innerHTML += slides[slide3Idx];
-    }
+    }*/
   }
 
 }
@@ -61,8 +61,8 @@ renderSlides();
 
 setInterval(nextSlide, 5000);
 
-/*document.querySelector('.container-carousel-clients-feedback .previous).addEventListener('click', prevSlide);
-document.querySelector('.container-carousel-clients-feedback .next).addEventListener('click', nextSlide);*/
+/*document.querySelector('.container-carousel-clients-feedback .prevSlideFeedback).addEventListener('click', prevSlide);
+document.querySelector('.container-carousel-clients-feedback .nextSlideFeedback).addEventListener('click', nextSlide);*/
 renderSlides();
 
 
