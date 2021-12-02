@@ -48,6 +48,7 @@
 
 
 .column-feedback-responce {
+    position: relative;
     display:block;
     background-color: #753e37;
     width: 80%;
