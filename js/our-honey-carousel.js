@@ -2,40 +2,6 @@
 
     const response = await fetch('our-honey-products.json');
      const products = await response.json();
-    // [
-    //     {
-    //         id: "1",
-    //         title: "Wildflower Honey",
-    //         image: "img/wildflower-honey-img.jpg",
-    //         price: "7,00"
-    //     },
-    //     {
-    //         id: "2",
-    //         title: "Blossom honey",
-    //         image: "img/blossom-honey.jpg",
-    //         price: "20,00"
-    //     },
-    //     {
-    //         id: "3",
-    //         title: "Lover Honey",
-    //         image: "img/lover-honey.jpg",
-    //         price: "8,00"
-    //     },
-    //     {
-    //         id: "4",
-    //         title: "Buckwheat Honey",
-    //         image: "img/buckwheat-honey.jpg",
-    //         price: "10,00"
-    //     },
-    //     {
-    //         id: "5",
-    //         title: "Citrus Blossom Honey",
-    //         image: "img/orange-blossom-honey.jpg",
-    //         price: "15,00"
-    //     }
-    // ]
-
-
 
     function ProductList(products) {
         const productContainer = [];
@@ -197,7 +163,7 @@
 
 
 
-    //setInterval(nextSlide,3000);
+    setInterval(nextSlide,3000);
     renderOrderSlides();
 
     window.addEventListener('resize', renderOrderSlides);
